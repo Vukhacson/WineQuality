@@ -151,6 +151,7 @@ rqt_topic==0.4.13
 rqt_web==0.4.10
 rviz==1.14.14
 scipy==1.9.1
+seaborn==0.11.2
 Send2Trash==1.8.0
 sensor-msgs==1.13.1
 six==1.16.0

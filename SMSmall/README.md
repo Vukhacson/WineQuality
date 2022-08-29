@@ -17,7 +17,7 @@ git clone https://github.com/ScaleMind-C9308A/WineQuality.git
 the following code to setup virtualenv
 ```
 cd SMSmall/
-git checkout -b <yourname>_DataExploration
+git checkout -b <yourname>_DataExplore_<Task>
 git merge SMSmall
 virtualenv .env
 source .env/bin/activate
@@ -35,6 +35,7 @@ jupyter notebook
 ```
 - Then choose the `SMSmall_Wine_quality_data_exploration.ipynb`
 - Edit directly into the jupyter notebook according to assignments
+  - **!Remember to comment your name before your code**
 - (Optional) You can choose to read my notebook (only as reference!) `Data Exploration - Wine Dataset.ipynb`
 5. Push changes to Github
 - Open another terminal inside the repo, then run the following:

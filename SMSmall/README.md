@@ -1,5 +1,10 @@
 # SMSmall
 
+## Resources
+- [Visualize the predictive power of a numerical feature in a classification problem](https://www.yourdatateacher.com/2022/03/30/visualize-the-predictive-power-of-a-numerical-feature-in-a-classification-problem/?fbclid=IwAR0fMpFNpv1phft8PSVX7j44cCWqq_iLh2HvAhsJCRrE8vFv-FLan3Ky1_I)
+- [Matplotlib: Plotting Subplots in a Loop](https://engineeringfordatascience.com/posts/matplotlib_subplots/)
+- [Using Pandas and Python to Explore Your Dataset](https://realpython.com/pandas-python-explore-dataset/)
+
 ## Tutorials to set up collaboration workflow
 1. Clone the repo on Github
 ```

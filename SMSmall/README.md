@@ -32,6 +32,7 @@ jupyter notebook
 ```
 - Then choose the `SMSmall_Wine_quality_data_exploration.ipynb`
 - Edit directly into the jupyter notebook according to assignments
+- (Optional) You can choose to read my notebook (only as reference!) `Data Exploration - Wine Dataset.ipynb`
 5. Push changes to Github
 - Open another terminal inside the repo, then run the following:
 ```

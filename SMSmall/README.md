@@ -6,6 +6,7 @@
 - [Using Pandas and Python to Explore Your Dataset](https://realpython.com/pandas-python-explore-dataset/)
 - [Predicting Wine Quality with Several Classification Techniques](https://medium0.com/m/global-identity?redirectUrl=https%3A%2F%2Ftowardsdatascience.com%2Fpredicting-wine-quality-with-several-classification-techniques-179038ea6434)
 - [Red Wine Quality Prediction Using Regression Modeling and Machine Learning](https://medium0.com/m/global-identity?redirectUrl=https%3A%2F%2Ftowardsdatascience.com%2Fred-wine-quality-prediction-using-regression-modeling-and-machine-learning-7a3e2c3e1f46)
+- [Choosing the right estimator](https://scikit-learn.org/stable/tutorial/machine_learning_map/index.html?fbclid=IwAR1xeenr-qKR2C_pMwPV-9ppC5K38I6bSQwM004vmTsVzGh69vVXs-oBygE)
 
 ## Tutorials to set up collaboration workflow
 1. Clone the repo on Github

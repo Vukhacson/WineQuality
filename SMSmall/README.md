@@ -22,8 +22,11 @@ git clone https://github.com/ScaleMind-C9308A/WineQuality.git
 the following code to setup virtualenv
 ```
 cd SMSmall/
+# Create your new branch
 git checkout -b <yourname>_DataExplore_<Task>
+# Merge your newly created branch with origin/SMSmall branch on remote
 git merge origin/SMSmall
+# Create virtual environment
 virtualenv .env
 source .env/bin/activate
 ```
@@ -46,6 +49,7 @@ jupyter notebook
 - Open another terminal inside the repo, then run the following:
 ```
 git pull origin SMSmall # pull before push
+# Commit your changes and push your branch to Github
 git add .
 git commit -m "<Your message>"
 git push -u origin <yourname>_DataExploration

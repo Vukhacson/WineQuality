@@ -23,7 +23,7 @@ the following code to setup virtualenv
 ```
 cd SMSmall/
 git checkout -b <yourname>_DataExplore_<Task>
-git merge SMSmall
+git merge origin/SMSmall
 virtualenv .env
 source .env/bin/activate
 ```
@@ -45,6 +45,7 @@ jupyter notebook
 5. Push changes to Github
 - Open another terminal inside the repo, then run the following:
 ```
+git pull origin SMSmall # pull before push
 git add .
 git commit -m "<Your message>"
 git push -u origin <yourname>_DataExploration

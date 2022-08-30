@@ -19,13 +19,18 @@
 git clone https://github.com/ScaleMind-C9308A/WineQuality.git
 ```
 2. Inside the cloned directory, right click -> choose `Git Bash`. Then add 
-the following code to setup virtualenv
+the following code to create your new branch && setup virtualenv
 ```
 cd SMSmall/
 # Create your new branch
 git checkout -b <yourname>_DataExplore_<Task>
 # Merge your newly created branch with origin/SMSmall branch on remote
 git merge origin/SMSmall
+```
+- An editing terminal (Vim) will open and show you the generated merging messages. To save the message and continue with the merge,
+press `Esc` key -> type `:wq` -> press Enter
+- Then run the following line to create new virtual environment
+```
 # Create virtual environment
 virtualenv .env
 source .env/bin/activate

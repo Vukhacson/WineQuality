@@ -14,27 +14,37 @@
 - [Choosing the right estimator](https://scikit-learn.org/stable/tutorial/machine_learning_map/index.html?fbclid=IwAR1xeenr-qKR2C_pMwPV-9ppC5K38I6bSQwM004vmTsVzGh69vVXs-oBygE)
 
 ## Tutorials to set up collaboration workflow
-1. Clone the repo on Github
+
+### 1. Clone the repo on Github
 ```
 git clone https://github.com/ScaleMind-C9308A/WineQuality.git
 ```
-2. Inside the cloned directory, right click -> choose `Git Bash`. Then add 
-the following code to setup virtualenv
+### 2. Create your new branch and merge 
+- Inside the cloned directory, right click -> choose `Git Bash`. 
+- Then run the following code to create your new branch :
 ```
 cd SMSmall/
+# Create your new branch
 git checkout -b <yourname>_DataExplore_<Task>
-git merge SMSmall
+# Merge your newly created branch with origin/SMSmall branch on remote
+git merge origin/SMSmall
+```
+- An editing terminal (Vim) will open and show you the generated merging messages. To save the message and continue with the merge,
+press `Esc` key -> type `:wq` -> press Enter
+### 3. Create virtual environment
+- Continue to run the following line to create new virtual environment
+```
 virtualenv .env
 source .env/bin/activate
 ```
-3. Install the required python pkgs using one of the 2 options:
+### 4. Install the required python pkgs using one of the 2 options:
 ```
 # Option 1: 
 pip install -r requirements.txt
 # Option 2:
 pip install -U jupyter numpy pandas matplotlib scipy seaborn 
 ```
-4. Open jupyter notebook
+### 5. Open jupyter notebook
 ```
 jupyter notebook
 ```
@@ -42,9 +52,12 @@ jupyter notebook
 - Edit directly into the jupyter notebook according to assignments
   - **!Remember to comment your name before your code**
 - (Optional) You can choose to read my notebook (only as reference!) `Data Exploration - Wine Dataset.ipynb`
-5. Push changes to Github
+
+###  6. After finishing assignment: Push changes to Github
 - Open another terminal inside the repo, then run the following:
 ```
+git pull origin SMSmall # pull before push
+# Commit your changes and push your branch to Github
 git add .
 git commit -m "<Your message>"
 git push -u origin <yourname>_DataExploration

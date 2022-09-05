@@ -22,6 +22,10 @@ contributes approximately proportionately to the Cost Function
 # How to deal with missing values: 5 Examples
 
 ### Lan
+- Get rid of all the rows with missing values
+``` Python
+df.dropna()
+```
 
 ### Ha Ngo
 

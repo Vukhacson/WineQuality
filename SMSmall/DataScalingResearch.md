@@ -6,8 +6,8 @@
 - Feature scaling/ Data Normalization is a method used to normalize the range of independent 
 variables or features of data. 
 - Example: 
- - Feature A originally ranges from 50000 to 300,000. 
- - After Scaling: Feature A ranges from 0 to 1
+    - Feature A originally ranges from 50000 to 300,000. 
+    - After Scaling: Feature A ranges from 0 to 1
 - In a ML Project Pipeline, Feature Scaling is generally performed during
  the data preprocessing step. 
 
@@ -15,7 +15,7 @@ variables or features of data.
 
 - The range of all features should be normalized so that each feature 
 contributes approximately proportionately to the Cost Function
-- gradient descent converges much faster with feature scaling than without it
+- Gradient descent converges much faster with feature scaling than without it
 - Apply feature scaling if regularization is used as part of the
  loss function (so that coefficients are penalized appropriately)
 

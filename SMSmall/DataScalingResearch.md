@@ -30,7 +30,7 @@ df.dropna()
 ### Ha Ngo
 
 ### Hieu
-
+- Predictive Techniques: based on observation techniques, assumptions to produce variables with correlation relationships, not random
 ### Minh
 
 ### Dat

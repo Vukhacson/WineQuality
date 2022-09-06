@@ -28,7 +28,14 @@ df.dropna()
 ```
 
 ### Ha Ngo
+- Replacing With Mean/Median/Mode
+``` Python
+df.isnull().sum()
+df.fillna(df.mean())
+df.fillna(df.median())
+df['.....'] = df['....'].fillna(df['.....'].mode()[0])
 
+``` 
 ### Hieu
 - Predictive Techniques: based on observation techniques, assumptions to produce variables with correlation relationships, not random
 ### Minh

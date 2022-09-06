@@ -38,6 +38,16 @@ df['.....'] = df['....'].fillna(df['.....'].mode()[0])
 ``` 
 ### Hieu
 - Predictive Techniques: based on observation techniques, assumptions to produce variables with correlation relationships, not random
+```Python
+X_train = train.drop(['.....'], axis=1)
+y_train = train['.....']
+X_test = test.drop(['.....'], axis=1)
+#Getting ready a model to predict missing values(Genre column)
+from sklearn.linear_model import LogisticRegression
+logistic = LogisticRegression(random_state = 0)
+logistic.fit(X_train, y_train)
+#predict the missing data
+y_pred = logistic.predict(X_test)
 ### Minh
 
 ### Dat

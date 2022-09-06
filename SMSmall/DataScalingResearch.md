@@ -41,3 +41,17 @@ df['.....'] = df['....'].fillna(df['.....'].mode()[0])
 ### Minh
 
 ### Dat
+- Filling with a regression model
+``` Python
+from sklearn.linear_model import LinearRegression
+lr = LinearRegression()
+df.head()
+testdf = df[df['.....'].isnull()==True]
+traindf = df[df['.....'].isnull()==False]
+y = traindf['.....']
+traindf.drop(".....",axis=1,inplace=True)
+lr.fit(traindf,y)
+testdf.drop(".....",axis=1,inplace=True)
+pred = lr.predict(testdf)
+testdf['.....']= pred
+```

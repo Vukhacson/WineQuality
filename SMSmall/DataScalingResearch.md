@@ -48,6 +48,7 @@ logistic = LogisticRegression(random_state = 0)
 logistic.fit(X_train, y_train)
 #predict the missing data
 y_pred = logistic.predict(X_test)
+```
 ### Minh
 
 ### Dat

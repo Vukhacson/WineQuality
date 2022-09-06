@@ -28,7 +28,14 @@ df.dropna()
 ```
 
 ### Ha Ngo
+- Replacing With Mean/Median/Mode
+``` Python
+df.isnull().sum()
+df.fillna(df.mean())
+df.fillna(df.median())
+df['.....'] = df['....'].fillna(df['.....'].mode()[0])
 
+``` 
 ### Hieu
 
 ### Minh

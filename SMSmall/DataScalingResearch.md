@@ -55,6 +55,7 @@ y_pred = logistic.predict(X_test)
 df_mean_imputed = df.fillna(df.mean())
 df_median_imputed = df.fillna(df.median())
 df_mean_imputed
+```
 
 ### Dat
 - Filling with a regression model

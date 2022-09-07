@@ -50,6 +50,11 @@ logistic.fit(X_train, y_train)
 y_pred = logistic.predict(X_test)
 ```
 ### Minh
+- Replace missing values with the column mean
+``` Python
+df_mean_imputed = df.fillna(df.mean())
+df_median_imputed = df.fillna(df.median())
+df_mean_imputed
 
 ### Dat
 - Filling with a regression model
